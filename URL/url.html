@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>URL SHORTENER</title>
+    <link rel="stylesheet" href="url.css">
+  </head>
+  <body>
+    <div class="maincontainer">
+    <h1>URL SHORTENER</h1>
+    <form>
+      <label for="long-url">URL:</label>
+      <input type="text" id="long-url" name="long-url" placeholder="Enter link here">
+      <button type="button" id="shorten-btn">Shorten URL</button>
+    </form>
+    <div id="short-url-container" style="display:none">
+      <p>Shortened URL:</p>
+      <div id="short-url">
+        <a href="" target="_blank"></a>
+        </div><br>
+        <button type="button" id="copy-btn">Copy</button>
+      </div>
+    </div>
+    <script src="url.js"></script>
+  </body>
+</html>
